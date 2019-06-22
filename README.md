@@ -7,6 +7,8 @@ Providing overview of fullstack engineering (backend + frontend)
 ## Tech stack
 
 * Apriary (API mock) https://todolist86.docs.apiary.io/#
+* Docker (Backend), for NATS & mongoDB
+* Minikube (Backend), if possible
 * Node.Js (Backend)
 * NATS (Backend)
 * MongoDB (Backend)
