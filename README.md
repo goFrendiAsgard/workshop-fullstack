@@ -6,8 +6,10 @@ Providing overview of fullstack engineering (backend + frontend)
 
 ## Tech stack
 
-* Apriary (API mock)
+* Apriary (API mock) https://todolist86.docs.apiary.io/#
 * Node.Js (Backend)
+* NATS (Backend)
+* MongoDB (Backend)
 * React.Js (Frontend)
 
 ## Tasks
