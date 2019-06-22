@@ -12,7 +12,7 @@ Providing overview of fullstack engineering (backend + frontend)
 * Node.Js (Backend)
 * NATS (Backend)
 * MongoDB (Backend)
-* React.Js (Frontend)
+* Vue (Frontend)
 
 ## Tasks
 
@@ -31,6 +31,6 @@ Providing overview of fullstack engineering (backend + frontend)
     - REST-like
     - Endpoints: TBD
 
-* Frontend (Fahmi)
+* Frontend (Fahim)
     - Offline first
-    - Using react
+    - Using Vue
