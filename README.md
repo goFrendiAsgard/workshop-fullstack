@@ -8,10 +8,10 @@ Providing overview of fullstack engineering (backend + frontend)
 
 * Apriary (API mock) https://todolist86.docs.apiary.io/#
 * Docker (Backend), for NATS & mongoDB
+    - docker run --name mongo -p 27017:27017 -it -d mongo
+    - docker run --name nats -p 4222:4222 -p 6222:6222 -p 8222:8222 -d nats
 * Minikube (Backend), if possible
 * Node.Js (Backend)
-* NATS (Backend)
-* MongoDB (Backend)
 * React.Js (Frontend)
 
 ## Tasks
@@ -22,15 +22,20 @@ Providing overview of fullstack engineering (backend + frontend)
 ## Case Study
 
 * TODO List app
-* 2 Endpoints: View and Upsert
+* 3 Endpoints:
+    - fetch
+    - insert
+    - update
 
 ## Spec
 
 * Backend (Go)
-    - 2 Services: one for upsert, one for view
-    - REST-like
-    - Endpoints: TBD
+    - [x] 2 Services: one for save, one for fetch
+    - [x] REST-like endpoints
+    - [x] Gateway
+    - [ ] Unittest
+    - [ ] Integration test
 
 * Frontend (Fahmi)
-    - Offline first
-    - Using react
+    - [ ] Offline first
+    - [ ] Using react
