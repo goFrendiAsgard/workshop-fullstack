@@ -14,8 +14,25 @@
 
 # Microservice Communication
 
-* Client Server
-* Pub Sub
+## Request/Response
+
+![request-response](images/request-response.png)
+
+### Problem with Request/Response
+
+![request-response-problem](images/request-response-problem.png)
+
+* Service Discovery
+* Error Recovery (solution: Saga Pattern)
+
+## Pub/Sub
+
+![pub-sub](images/pub-sub.png)
+
+### Problem With Pub/Sub
+
+* Bottle neck
+* Single point of failure
 
 # Our Architecture
 
